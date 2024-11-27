@@ -1,0 +1,9 @@
+name: NewTestPlugin
+version: '${project.version}'
+main: me.flintaxe.newtestplugin.NewTestPlugin
+api-version: '1.21'
+commands:
+  getBlessed:
+    description: "spawns a holy site at where you are standing"
+    permission: newtestplugin.test
+    permission-message: "you don't have newtestplugin.test permission"
